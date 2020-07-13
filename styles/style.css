@@ -1,0 +1,410 @@
+        /* 0 GENERAL SETTINGS */
+        
+/* 0 HTML AND BODY */
+html, body {
+margin: 0;
+padding: 0;
+}
+    
+body {
+font-size: 1em;
+}
+
+p{
+font-size: 0.8em;
+font-family: 'Asap', sans-serif;
+}
+
+.navbar-brand{
+font-family: 'PT Serif', serif;
+}
+
+h2{
+font-family: 'PT Serif', serif;
+font-size: 3em;
+text-align: center;
+line-height: 1em;  
+padding-top: 1em;
+padding-bottom: 1em;
+}
+    
+h3 {
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 3em;
+text-align: center;
+line-height: 1em;
+}
+    
+h4 {
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1em;
+margin-bottom: 1em;
+line-height: 1em;
+text-align:left;
+}
+
+h5 {
+font-family: 'PT Sans Caption', sans-serif;
+font-size: 1em;
+text-align: center;
+line-height: 1em;
+}
+
+/* RESPONSIVE DESIGN GENERAL SETTINGS */
+
+@media (min-width: 800px){
+p{
+        font-size: 0.9em; 
+}
+h2{
+        font-size: 4.5em;
+        text-align: center;
+        line-height: 1em;  
+        padding-top: 1em;
+        padding-bottom: 1em; 
+        }
+h3{
+        font-size: 3em;
+        text-align: center;
+        line-height: 1em;  
+}
+h4{
+        font-size: 1.5em;
+        margin-bottom: 1em;
+        line-height: 1em;
+        text-align:left;   
+}
+h5{
+        font-family: 'PT Sans Caption', sans-serif;
+        font-size: 1.1em;
+        text-align: center;
+        line-height: 1em;   
+}       
+}
+
+/* SECOND SECTION: CAROUSEL */
+
+/* THIRD SECTION: BOXES */  
+.section-two {
+width: 30em;
+margin: 0 auto;
+padding: 3em 0em;
+}
+  
+.box {
+background-color: yellow;
+font-size: 1.7em;
+text-align: center;
+border: 0.1 solid #EEE;
+box-sizing: border-box;
+margin: 3em 5% 0 5%;
+padding: 1em;
+width: 40%;
+}
+
+#section-two-boxes > div {
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.box:hover {
+background-color: #E6DDF3;
+transition-property: height;
+transition-duration: 1s;
+transition-timing-function:linear;
+transition-delay: 1s;
+}
+
+/* RESPONSIVE DESIGN BOXES */
+
+@media (min-width: 800px){
+        .section-two{
+        width: 60em;
+        margin: 0 auto;
+        padding: 3em 0em;     
+        }
+}
+
+/* FOUR SECTION: FOOTER */
+
+        /* 2 MUSEUMS */
+
+/* FIRST SECTION: MUSEUMS BOXES */        
+.section-one-museums {
+width: 20em;
+margin: 0 auto;
+padding: 1em 0;
+}
+
+#section-one-boxes-museums > div {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.box-museums img {
+width: 15em;
+float: left;
+padding-right:1em;
+}
+  
+.box-museums {
+background-color: yellow;
+font-size: 1.1em;
+text-align: left;
+box-sizing: border-box;
+margin: 0.5em 5% 0 0;
+padding: 2em;
+width: 100%;
+}
+
+.a-museum{
+text-decoration: none;
+color: black;
+font-size: 0.9em;
+}
+
+/* RESPONSIVE DESIGN FOR MUSEUMS BOXES */
+
+@media (min-width: 800px){
+.section-one-museums{
+        width: 70em;
+        margin: 0 auto;
+        padding: 3em 0;
+        }
+.box-museums img{
+        width: 30em;
+        float: left;
+        padding-right:2em;      
+        }
+.box-museums{
+        background-color: yellow;
+        font-size: 1.1em;
+        text-align: left;
+        box-sizing: border-box;
+        margin: 3em 5% 0 0;
+        padding: 3em;
+        width: 100%;
+        }
+.a-museum{
+        text-decoration: none;
+        color: black;
+        font-size: 0.9em;      
+        }
+}
+
+        /* 3 ARTWORK OF THE DAY */
+
+/* FIRST SECTION: ARTWORK OF THE DAY */      
+
+.section-one-artwork {
+width: 20em;
+margin: 0 auto;
+padding: 1em 0;
+object-fit: contain;
+}
+    
+#section-one-box-artwork > div {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+flex-wrap: wrap;
+}
+    
+.box-artwork img {
+width: 30%;
+float: left;
+padding-right:2em;
+}
+      
+.box-artwork {
+background-color: white;
+font-size: 1.1em;
+text-align: left;
+box-sizing: border-box;
+margin: 2em 5% 0 0;
+padding: 2em;
+width: 100%;
+height: 100%;
+}
+
+/* RESPONSIVE DESIGN FOR ARTWORK OF THE DAY BOX */
+
+@media (min-width: 800px){
+.section-one-artwork{
+        width: 70em;
+        padding: 3em 0;
+        object-fit: contain;
+        }
+.box-artwork img{
+        width: 50%;
+        float: left;
+        padding-right:2em;
+        }
+}
+
+        /* 4 FAQ */
+
+.section-one-faq {
+width: 20em;
+margin: 0 auto;
+padding: 1em 0;
+}
+            
+#section-one-boxes-faq > div {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+flex-wrap: wrap;
+}
+            
+.box-faq:hover {
+background-color: #E6DDF3;
+width: 100%;
+transition-property: height;
+transition-duration: 1s;
+transition-timing-function:linear;
+transition-delay: 1s;
+}
+              
+.box-faq {
+background-color: yellow;
+font-size: 1.3em;
+text-align: left;
+box-sizing: border-box;
+margin: 2em 5% 0 0;
+padding: 1em;
+width: 100%;
+}
+
+/* RESPONSIVE DESIGN FOR FAQ BOXES */
+
+@media (min-width: 800px){
+.section-one-faq{
+        width: 70em;
+        margin: 0 auto;
+        padding: 3em 0;
+        }
+}
+         
+        /* 5 LOG IN */
+
+.section-one-login {
+width: 20em;
+margin: 0 auto;
+padding: 3em 0;
+text-align: center;
+}
+                    
+.box-login {
+background-color: yellow;
+font-size: 1.1em;
+text-align: center;
+box-sizing: border-box;
+margin: 2em 5% 0 0;
+padding: 5em;
+width: 100%;
+}
+            
+.a-login{
+text-decoration: none;
+color: black;
+}
+            
+.form-login-container button {
+border: 0.01 solid black;
+color: black;
+background-color: white;
+padding: 0.1em;
+margin-top: 2em;
+}
+            
+.login-form {
+width: 100%;
+margin: 0.1em auto auto auto;
+font-size: 1.1em;
+text-align: center;
+}
+            
+.form-login-container input, select {
+height: 2em;
+padding: 0.1em;
+width: 100%;
+outline: none;
+}
+
+/* RESPONSIVE DESIGN FOR LOGIN BOX */
+
+@media (min-width: 800px){
+.section-one-login{
+        width: 25em;
+        margin: 0 auto;
+        padding: 3em 0;
+        text-align: center;
+        }
+}
+
+        /* 6 REGISTER */
+
+.section-one-register {
+width: 20em;
+margin: 0 auto;
+padding: 3em 0;
+text-align: center;
+}
+                    
+.box-register {
+background-color: yellow;
+font-size: 1.1em;
+text-align: center;
+box-sizing: border-box;
+margin: 2em 5% 0 0;
+padding: 5em;
+width: 100%;
+}
+            
+.singup-button{
+text-decoration: none;
+color: black;
+}
+            
+.form-register-container button {
+border: 0.01 solid black;
+color: black;
+background-color: white;
+padding: 0.1em;
+margin-top: 2em;
+}
+            
+.register-form {
+width: 100%;
+margin: 0.1em auto auto auto;
+font-size: 1.1em;
+text-align: center;
+}
+            
+.form-register-container input, select {
+height: 2em;
+padding: 0.1em;
+width: 100%;
+outline: none;
+}
+
+/* RESPONSIVE DESIGN FOR SIGN UP BOX */
+
+@media (min-width: 800px){
+.section-one-register{
+        width: 25em;
+        margin: 0 auto;
+        padding: 3em 0;
+        text-align: center;
+}
+}
+
+
+.container-error{
+        color: red;
+      }
