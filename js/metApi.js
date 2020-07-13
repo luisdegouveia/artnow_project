@@ -25,7 +25,9 @@ function getArt() {
     <div>
       <article class="box-artwork">
         
-        <img src="${data.primaryImage}" alt="MET MUSEUM">
+        <div class="piece-of-art">
+          <img src="${data.primaryImage}" alt="MET MUSEUM">
+        </div>
         
         <h4> "${data.title}" </h4>
         <p> 
@@ -33,8 +35,7 @@ function getArt() {
         </p>
         
       </article>
-    </div>
-  </section>`;
+    </div>`;
     section.appendChild(article);
     } else {
         getArt();

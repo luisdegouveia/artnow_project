@@ -85,11 +85,11 @@ h5{
 /* SECOND SECTION: CAROUSEL */
 
 /* THIRD SECTION: BOXES */  
-.section-two {
+/*.section-two {
 width: 30em;
 margin: 0 auto;
 padding: 3em 0em;
-}
+}*/
   
 .box {
 background-color: yellow;
@@ -99,15 +99,19 @@ border: 0.1 solid #EEE;
 box-sizing: border-box;
 margin: 3em 5% 0 5%;
 padding: 1em;
-width: 40%;
 }
 
-#section-two-boxes > div {
+.box-container{
+display: flex;
+flex-direction: column;
+}
+
+/*#section-two-boxes > div {
 display: flex;
 justify-content: space-between;
 flex-direction: row;
 flex-wrap: wrap;
-}
+}*/
 
 .box:hover {
 background-color: #E6DDF3;
@@ -121,9 +125,15 @@ transition-delay: 1s;
 
 @media (min-width: 800px){
         .section-two{
-        width: 60em;
         margin: 0 auto;
-        padding: 3em 0em;     
+        padding: 3em 0em; 
+        }
+        .box-container{
+        display: flex;
+        flex-direction: row;    
+        }
+        .box{
+        width: 60em;
         }
 }
 
@@ -149,6 +159,7 @@ flex-wrap: wrap;
 width: 15em;
 float: left;
 padding-right:1em;
+margin-bottom: 1em;
 }
   
 .box-museums {
@@ -176,7 +187,7 @@ font-size: 0.9em;
         padding: 3em 0;
         }
 .box-museums img{
-        width: 30em;
+        width: 40em;
         float: left;
         padding-right:2em;      
         }
@@ -214,10 +225,14 @@ flex-direction: column;
 flex-wrap: wrap;
 }
     
-.box-artwork img {
-width: 30%;
+.piece-of-art img {
+width: 100%;
+}
+
+.piece-of-art{
+width: 300px;
 float: left;
-padding-right:2em;
+margin-bottom: 1em;
 }
       
 .box-artwork {
@@ -239,11 +254,10 @@ height: 100%;
         padding: 3em 0;
         object-fit: contain;
         }
-.box-artwork img{
-        width: 50%;
-        float: left;
-        padding-right:2em;
-        }
+.piece-of-art{
+        width: 35em;
+        margin-right: 1em;
+}
 }
 
         /* 4 FAQ */
@@ -403,8 +417,3 @@ outline: none;
         text-align: center;
 }
 }
-
-
-.container-error{
-        color: red;
-      }
