@@ -16,14 +16,25 @@ class Login{
         const usersDB = db.getAllUsers();
 
         //intentar encontrar el usuario. 
-        const user = usersDB.find((userObj) => (this.validateUser));
+        const user = usersDB.find((userObj) => {
+            console.log(userObj);
 
-        this.showMessage(user);
+            return this.validateUser(userObj)
+        
+     })
+
+     console.log(user);
+
+     this.showMessage(user);
     }
 
     validateUser = (userObj) => {
         const email = this.emailInput.value; 
         const password = this.passwordInput.value;
+
+        console.log(email);
+        console.log(password);
+        console.log(userObj.email === email && userObj.password === password);
 
         return userObj.email === email && userObj.password === password;
     }
