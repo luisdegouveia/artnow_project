@@ -16,6 +16,7 @@ ARTNOW is a platform dedicated to art, in it you can find a directory with the m
 
 ### BACKLOG 
 
+- Expand the list of museums for each city.
 - More cities in the "Museums" section.
 - A section of art galleries.
 - A section for young artist. 
@@ -25,9 +26,8 @@ ARTNOW is a platform dedicated to art, in it you can find a directory with the m
 ### DATA STRUCTURE
 
 - Root
-  * **index.html**
+  * index.html
   * museums.html
-    * barcelona.html
     * madrid.html
     * valencia.html
     * bilbao.html
@@ -46,22 +46,9 @@ ARTNOW is a platform dedicated to art, in it you can find a directory with the m
   * **assets**
     * img
     * fonts
+    * wireframes
 
 -----
-
-### WIREFRAMES
-
-![Captura de Pantalla 2020-07-10 a la(s) 14.20.23](/Users/degouveiasousa/Desktop/Captura de Pantalla 2020-07-10 a la(s) 14.20.23.png)
-
-![Captura de Pantalla 2020-07-10 a la(s) 14.20.44](/Users/degouveiasousa/Desktop/Captura de Pantalla 2020-07-10 a la(s) 14.20.44.png)
-
-![Captura de Pantalla 2020-07-10 a la(s) 14.20.56](/Users/degouveiasousa/Desktop/Captura de Pantalla 2020-07-10 a la(s) 14.20.56.png)
-
-![Captura de Pantalla 2020-07-10 a la(s) 14.21.12](/Users/degouveiasousa/Desktop/Captura de Pantalla 2020-07-10 a la(s) 14.21.12.png)
-
-![Captura de Pantalla 2020-07-10 a la(s) 14.21.25](/Users/degouveiasousa/Desktop/Captura de Pantalla 2020-07-10 a la(s) 14.21.25.png)
-
-![Captura de Pantalla 2020-07-10 a la(s) 14.24.00](/Users/degouveiasousa/Desktop/Captura de Pantalla 2020-07-10 a la(s) 14.24.00.png)
 
 ***
 
