@@ -27,6 +27,10 @@ ARTNOW is a platform dedicated to art, in it you can find a directory with the m
 - Root
   * **index.html**
   * museums.html
+    * barcelona.html
+    * madrid.html
+    * valencia.html
+    * bilbao.html
   * artwork.html
   * faq.html
   * register.html
