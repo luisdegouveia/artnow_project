@@ -18,7 +18,7 @@ function getArt() {
     })
 
     .then((data) => {
-    if (data.primaryImage) {
+    if (data.primaryImage && data.artistDisplayName) {
     const article = document.createElement('article');
     article.innerHTML = `
     <h3> ARTWORK OF THE DAY </h3>

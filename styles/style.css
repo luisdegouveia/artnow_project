@@ -339,7 +339,7 @@ margin-top: 2em;
             
 .login-form {
 width: 100%;
-margin: 0.1em auto auto auto;
+margin: 0.9em auto auto auto;
 font-size: 1.1em;
 text-align: center;
 }
@@ -355,7 +355,7 @@ outline: none;
 
 @media (min-width: 800px){
 .section-one-login{
-        width: 25em;
+        width: 30em;
         margin: 0 auto;
         padding: 3em 0;
         text-align: center;
@@ -397,7 +397,7 @@ margin-top: 2em;
             
 .register-form {
 width: 100%;
-margin: 0.1em auto auto auto;
+margin: 0.9em auto auto auto;
 font-size: 1.1em;
 text-align: center;
 }
@@ -413,7 +413,7 @@ outline: none;
 
 @media (min-width: 800px){
 .section-one-register{
-        width: 25em;
+        width: 30em;
         margin: 0 auto;
         padding: 3em 0;
         text-align: center;
