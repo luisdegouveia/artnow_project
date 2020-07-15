@@ -9,6 +9,7 @@ ARTNOW is a platform dedicated to art, in it you can find a directory with the m
 - Homepage: This section will present the website concept.
 - Museums: In this part, the website will provide a list of museums.
 - Artwork of the day: In this section the website will provide the user with a new piece of art (working with the MET museum API).
+- Search for pieces of art: The user will be able to search for pieces of art according to the country or city they want, as long as the MET has a piece from that place. 
 - FAQ: Questions and answers related to the ARTNOW platform.
 - Login: A sing in form for existin users, in this section there will also be a link for users to register.
 
@@ -32,6 +33,7 @@ ARTNOW is a platform dedicated to art, in it you can find a directory with the m
     * valencia.html
     * bilbao.html
   * artwork.html
+  * country.html
   * faq.html
   * register.html
   * singin.html
@@ -43,14 +45,13 @@ ARTNOW is a platform dedicated to art, in it you can find a directory with the m
     * user.js
     * validator.js
     * metApi.js
+    * countryApi.js
   * **assets**
     * img
     * fonts
     * wireframes
 
 -----
-
-***
 
 ### LINKS
 
