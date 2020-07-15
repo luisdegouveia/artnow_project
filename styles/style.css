@@ -7,7 +7,7 @@ padding: 0;
 }
     
 body {
-font-size: 1em;
+font-size: 0.9em;
 }
 
 p{
@@ -85,6 +85,7 @@ h5{
 /* SECOND SECTION: CAROUSEL */
 
 /* THIRD SECTION: BOXES */  
+
 /*.section-two {
 width: 30em;
 margin: 0 auto;
@@ -260,7 +261,69 @@ height: 100%;
 }
 }
 
-        /* 4 FAQ */
+        /* 4 SEARCH ART BY COUNTRY */
+
+/* FIRST SECTION: SEARCH ART BY COUNTRY */
+
+.section-one-search {
+width: 20em;
+margin: 0 auto;
+padding: 3em 0;
+text-align: center;
+}
+                            
+.box-search {
+background-color: yellow;
+font-size: 1.1em;
+text-align: center;
+box-sizing: border-box;
+margin: 1em 5% 0 0;
+padding: 1em;
+width: 100%;
+}
+                    
+.search-container button {
+border: 0.01 solid black;
+color: black;
+background-color: white;
+width: 4em;
+height: 3em;
+margin-top: 2em;
+}
+                    
+.search {
+width: 100%;
+margin: 0.9em auto auto auto;
+font-size: 1.1em;
+text-align: center;
+}
+                    
+.search-container input {
+height: 2em;
+padding: 0.1em;
+width: 100%;
+outline: none;
+}
+
+.text-country{
+margin-top: 2em;
+margin-bottom: 2em;
+font-size: 0.9em;
+font-style: italic;
+}
+
+        /* RESPONSIVE DESIGN FOR SEARCH BOX */
+
+@media (min-width: 800px){
+.section-one-search{
+        width: 30em;
+        margin: 0 auto;
+        padding: 3em 0;
+        text-align: center;
+        }
+}
+
+        /* 5 FAQ */
 
 .section-one-faq {
 width: 20em;
@@ -340,7 +403,7 @@ width: 100%;
         }
 }
          
-        /* 5 LOG IN */
+        /* 6 LOG IN */
 
 .section-one-login {
 width: 20em;
@@ -398,7 +461,7 @@ outline: none;
         }
 }
 
-        /* 6 REGISTER */
+        /* 7 REGISTER */
 
 .section-one-register {
 width: 20em;
@@ -460,5 +523,5 @@ outline: none;
 
 .message-container{
         font-weight: bold;
-        color: red;
+        color: blue;
 }
