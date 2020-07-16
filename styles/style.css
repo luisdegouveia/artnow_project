@@ -445,7 +445,7 @@ text-align: center;
 }
                     
 .box-login {
-background-color: yellow;
+background-color: rgba(255, 238, 5, 0.34);
 font-size: 1.1em;
 text-align: center;
 box-sizing: border-box;
@@ -456,7 +456,7 @@ width: 100%;
             
 .a-login{
 text-decoration: none;
-color: black;
+color: white;
 }
             
 .form-login-container button {
@@ -473,6 +473,7 @@ width: 100%;
 margin: 0.9em auto auto auto;
 font-size: 1.1em;
 text-align: center;
+color: white
 }
             
 .form-login-container input, select {
@@ -480,6 +481,21 @@ height: 2em;
 padding: 0.1em;
 width: 100%;
 outline: none;
+}
+
+/* SETTINGS BACKGROUND IMAGE LOG IN */
+
+.loginimage{
+        background-image: url(../assets/img/DP140859.jpg);
+        background-size: cover;
+}
+
+.logintext{
+        color: white;
+}
+
+.loginfooter{
+        color: white;
 }
 
 /* RESPONSIVE DESIGN FOR LOGIN BOX */
@@ -503,7 +519,7 @@ text-align: center;
 }
                     
 .box-register {
-background-color: yellow;
+background-color: rgba(255, 238, 5, 0.34);
 font-size: 1.1em;
 text-align: center;
 box-sizing: border-box;
@@ -514,7 +530,7 @@ width: 100%;
             
 .singup-button{
 text-decoration: none;
-color: black;
+color: white;
 }
             
 .form-register-container button {
@@ -531,6 +547,7 @@ width: 100%;
 margin: 0.9em auto auto auto;
 font-size: 1.1em;
 text-align: center;
+color: white;
 }
             
 .form-register-container input, select {
@@ -538,6 +555,13 @@ height: 2em;
 padding: 0.1em;
 width: 100%;
 outline: none;
+}
+
+/* SETTINGS BACKGROUND IMAGE LOG IN */
+
+.signupimage{
+        background-image: url(../assets/img/43.47.7\ -\ color.jpg);
+        background-size: cover;
 }
 
 /* RESPONSIVE DESIGN FOR SIGN UP BOX */
