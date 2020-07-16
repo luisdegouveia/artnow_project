@@ -34,6 +34,10 @@ font-size: 3em;
 text-align: center;
 line-height: 1em;
 }
+
+.text-index{
+padding-top: 4em;
+}
     
 h4 {
 font-family: 'PT Sans Caption', sans-serif;
@@ -157,19 +161,18 @@ flex-wrap: wrap;
 }
 
 .box-museums img {
-width: 15em;
+width: 20em;
 float: left;
-padding-right:1em;
+padding-right:  1em;
 margin-bottom: 1em;
 }
   
 .box-museums {
-background-color: yellow;
+background-color: white;
 font-size: 1.1em;
 text-align: left;
 box-sizing: border-box;
 margin: 0.5em 5% 0 0;
-padding: 2em;
 width: 100%;
 }
 
@@ -178,6 +181,7 @@ text-decoration: none;
 color: black;
 font-size: 0.9em;
 }
+
 
 /* RESPONSIVE DESIGN FOR MUSEUMS BOXES */
 
@@ -188,12 +192,12 @@ font-size: 0.9em;
         padding: 3em 0;
         }
 .box-museums img{
-        width: 40em;
+        width: 45em;
         float: left;
         padding-right:2em;      
         }
 .box-museums{
-        background-color: yellow;
+        background-color: white;
         font-size: 1.1em;
         text-align: left;
         box-sizing: border-box;
@@ -206,6 +210,14 @@ font-size: 0.9em;
         color: black;
         font-size: 0.9em;      
         }
+.box-museums-two{
+        background-color: yellow;
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
 }
 
         /* 3 ARTWORK OF THE DAY */
