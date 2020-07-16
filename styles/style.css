@@ -445,7 +445,7 @@ text-align: center;
 }
                     
 .box-login {
-background-color: rgba(255, 238, 5, 0.34);
+background-color: rgba(255, 238, 5, 0.544);
 font-size: 1.1em;
 text-align: center;
 box-sizing: border-box;
@@ -519,7 +519,7 @@ text-align: center;
 }
                     
 .box-register {
-background-color: rgba(255, 238, 5, 0.34);
+background-color: rgba(255, 238, 5, 0.544);
 font-size: 1.1em;
 text-align: center;
 box-sizing: border-box;
@@ -579,5 +579,5 @@ outline: none;
 
 .message-container{
         font-weight: bold;
-        color: blue;
+        color: white;
 }

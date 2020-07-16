@@ -48,11 +48,11 @@ class Login{
 
         if (user) {
             // se enseña el mensaje de exito
-            message.innerHTML = `Hola, ${user.email}`;
+            message.innerHTML = `Hello, ${user.email}`;
             message.classList.add("correct-message");
         } else {
             //se enseña mensaje de error
-        message.innerHTML = 'El email y/o password son incorrectos';
+        message.innerHTML = 'Sorry, wrong email or password';
         }
 
         this.messageContainer.appendChild(message);
