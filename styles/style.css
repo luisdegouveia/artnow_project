@@ -61,7 +61,7 @@ p{
         font-size: 0.9em; 
 }
 h2{
-        font-size: 4.5em;
+        font-size: 6em;
         text-align: center;
         line-height: 1em;  
         padding-top: 1em;
@@ -182,7 +182,6 @@ color: black;
 font-size: 0.9em;
 }
 
-
 /* RESPONSIVE DESIGN FOR MUSEUMS BOXES */
 
 @media (min-width: 800px){
@@ -217,6 +216,13 @@ font-size: 0.9em;
         justify-content: space-between;
         flex-direction: column;
         flex-wrap: wrap;
+}
+.box-museums-two:hover {
+        background-color: #E6DDF3;
+        transition-property: height;
+        transition-duration: 1s;
+        transition-timing-function:linear;
+        transition-delay: 1s;
 }
 }
 
