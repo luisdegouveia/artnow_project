@@ -196,6 +196,14 @@ color: black;
 font-size: 0.9em;
 }
 
+.box-museums-two{
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+}
+
 /* RESPONSIVE DESIGN FOR MUSEUMS BOXES */
 
 @media (min-width: 800px){
@@ -319,8 +327,10 @@ border: 0.01 solid black;
 color: black;
 background-color: white;
 width: 4em;
-height: 3em;
+height: 2em;
+font-size: 0.80em;
 margin-top: 2em;
+padding: 0.10em;
 }
                     
 .search {
@@ -352,6 +362,14 @@ font-style: italic;
         margin: 0 auto;
         padding: 3em 0;
         text-align: center;
+        }
+.search-container button {
+        border: 0.01 solid black;
+        color: black;
+        background-color: white;
+        width: 6em;
+        height: 3em;
+        margin-top: 2em;
         }
 }
 
